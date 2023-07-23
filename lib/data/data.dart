@@ -1,0 +1,40 @@
+final List listThreads = [
+  {
+    'name': 'Enira Uzcategui',
+    'posted': '10 m',
+    'description':
+        'Richard McClintock, un profesor de Latin de la Universidad de Hampden-Sydney en Virginia, encontró una de las palabras más oscuras de la lengua del latín.',
+    'image': '',
+    'profileImage': 'profile.jpg',
+    'replies': '95',
+    'likes': '223',
+    'replier': 'h2.jpg',
+    'replier1': 'p2.jpg',
+    'replier2': 'p3.jpg',
+  },
+  {
+    'name': 'Sile P.',
+    'posted': '2 m',
+    'description': 'Today pic',
+    'image': 'p3.jpg',
+    'profileImage': 'p3.jpg',
+    'replies': '31',
+    'likes': '89',
+    'replier': 'h2.jpg',
+    'replier1': 'p2.jpg',
+    'replier2': 'profile.jpg',
+  },
+  {
+    'name': 'Sasy V.',
+    'posted': '1.2 m',
+    'description':
+        'Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio.',
+    'image': '',
+    'profileImage': 'h2.jpg',
+    'replies': '129',
+    'likes': '537',
+    'replier': 'h2.jpg',
+    'replier1': 'p2.jpg',
+    'replier2': 'p3.jpg',
+  },
+];
