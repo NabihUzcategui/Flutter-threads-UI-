@@ -80,7 +80,7 @@ class HomeScreen extends StatelessWidget {
                                   width: double.infinity,
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(18),
-                                    color: Colors.amber,
+                                    color: Colors.grey.shade200,
                                     image: DecorationImage(
                                         image: AssetImage(
                                           'assets/${threadlist.image}',
@@ -108,7 +108,8 @@ class HomeScreen extends StatelessWidget {
                             ),
                             15.pv,
                             Container(
-                              padding: const EdgeInsets.only(bottom: 10),
+                              padding:
+                                  const EdgeInsets.only(bottom: 10, left: 20),
                               alignment: Alignment.bottomLeft,
                               height: 30,
                               child: Padding(
@@ -136,6 +137,49 @@ class HomeScreen extends StatelessWidget {
                             ),
                           ),
                         ),
+                        Positioned(
+                          right: 330,
+                          child: Container(
+                            height: 35,
+                            width: 35,
+                            decoration: BoxDecoration(
+                                color: Colors.grey.shade100,
+                                borderRadius: BorderRadius.circular(1)),
+                            child: Stack(
+                              children: [
+                                Positioned(
+                                  right: 0,
+                                  child: CircleAvatar(
+                                    backgroundImage: AssetImage(
+                                      'assets/${threadlist.replier}',
+                                    ),
+                                    radius: 9,
+                                  ),
+                                ),
+                                // Positioned(
+                                //   left: 0,
+                                //   top: 10,
+                                //   child: CircleAvatar(
+                                //     backgroundImage: AssetImage(
+                                //       'assets/${threadlist.replier1}',
+                                //     ),
+                                //     radius: 7,
+                                //   ),
+                                // ),
+                                // Positioned(
+                                //   bottom: 0,
+                                //   right: 8,
+                                //   child: CircleAvatar(
+                                //     backgroundImage: AssetImage(
+                                //       'assets/${threadlist.replier2}',
+                                //     ),
+                                //     radius: 6,
+                                //   ),
+                                // )
+                              ],
+                            ),
+                          ),
+                        )
                       ],
                     ),
                   );
