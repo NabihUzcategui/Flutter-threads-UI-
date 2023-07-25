@@ -11,9 +11,9 @@ class Navigation extends StatefulWidget {
 class _NavigationState extends State<Navigation> {
   int index = 0;
   List page = [
-    HomeScreen(),
-    HomeScreen(),
-    HomeScreen(),
+    const HomeScreen(),
+    const HomeScreen(),
+    const HomeScreen(),
   ];
 
   @override
